@@ -120,8 +120,7 @@ def open_sizes_file(sizes_path):
     return chrom_sizes
 
 
-def assign_chroms_to_rows(chrom_sizes):
-    """Assign chromosomes to rows of a plot, such that each row covers 18%
+   """Assign chromosomes to rows of a plot, such that each row covers 18%
     of the total genome.
 
     :param chrom_sizes: Table of chromosome names and sizes
